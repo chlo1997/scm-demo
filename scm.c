@@ -19,7 +19,7 @@ void potencia(int a, int b) {
 
 void divide(int a, int b) {
     if (b == 0){
-        printf("Divisões por 0 não são permitidas");
+        printf("Divisões por 0 não são permitidas!\n");
     }
     else {
         printf("%d/%d = %d\n", a, b, a/b);
