@@ -4,6 +4,8 @@
 scm
 config.txt
 
+.vscode/
+
 # Object files
 *.o
 *.ko
