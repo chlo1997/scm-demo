@@ -14,7 +14,7 @@ void data_hora(){
 }
 
 void potencia(int a, int b) {
-    printf("%d^%d = %d\n", a,b, pow(a,b))
+    printf("%d^%d = %f\n", a,b, pow(a,b));
 }
 
 void divide(int a, int b) {
