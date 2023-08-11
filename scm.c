@@ -36,10 +36,10 @@ int main() {
     char nome[80];
     printf("Insira o seu nome: ");
     scanf("%s", nome);
-    printf("Ola estudante %s\n .", nome);
+    printf("Ola estudante %s.\n", nome);
 
     soma(5, 3);
-    divide(5, 3);
+    divide(6, 3);
     subtrai(5, 3);
     return 0;
 }
