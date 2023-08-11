@@ -9,6 +9,11 @@ void multiplica(int a, int b) {
 }
 
 int main() {
+    char nome[80];
+    printf("Insira o seu nome: ");
+    scanf("%s", nome);
+    printf("Ola estudante %s\n .", nome);
+
     printf("Olá, Estudante!\n");
     soma(5, 3);
     multiplica(5, 3);
