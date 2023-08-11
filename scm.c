@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void soma(int a, int b) {
     printf("%d + %d = %d\n", a, b, a + b);
@@ -6,6 +7,10 @@ void soma(int a, int b) {
 
 void multiplica(int a, int b) {
     printf("%d x %d = %d\n", a, b, a * b);
+}
+
+void potencia(int a, int b){
+    printf("%d^%d = %d\n", a,b, pow(a,b))
 }
 
 int main() {
