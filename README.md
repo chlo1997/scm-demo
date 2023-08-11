@@ -4,6 +4,8 @@
 
 A ideia desta aula é passar pelos comandos básicos usados em repositórios git, além de conhecer e compreender funcionalidades disponíveis no github.
 
+Testando mudança no meio do arquivo.
+
 Esta mudança é apenas para testar um commit sem mensagem.
 
 Mais uma mudança.
