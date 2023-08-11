@@ -18,23 +18,18 @@ void potencia(int a, int b) {
 }
 
 void divide(int a, int b) {
-    if (b == 0)
-	printf("Divisões por 0 não são permitidas")
-    else
-	printf("%d/%d = %d\n", a, b, a/b);
+    if (b == 0){
+        printf("Divisões por 0 não são permitidas");
+    }
+    else {
+        printf("%d/%d = %d\n", a, b, a/b);
+    }
 }
 
 void subtrai(int a, int b) {
     printf("%d - %d = %d\n", a, b, a - b);
 }
 
-void divide(int a, int b) {
-    if (b == 0) {
-        printf("Impossível dividir por 0!");
-    } else {
-        printf("%d / %d = %.2f\n", a, b, a / (float)b);
-    }
-}
 
 int main() {
     data_hora();
