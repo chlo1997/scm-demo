@@ -40,6 +40,7 @@ int main() {
 
     soma(5, 3);
     divide(6, 3);
+    divide(6, 0);
     subtrai(5, 3);
     return 0;
 }
