@@ -39,7 +39,6 @@ int main() {
     printf("Ola estudante %s\n .", nome);
 
     soma(5, 3);
-    multiplica(5, 3);
     divide(5, 3);
     subtrai(5, 3);
     return 0;
