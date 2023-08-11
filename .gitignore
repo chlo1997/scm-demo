@@ -2,6 +2,7 @@
 *.d
 
 scm
+config.txt
 
 # Object files
 *.o
@@ -52,3 +53,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Qualquer diretório chamado build (e todos os arquivos dentro dele), mas deixa existir um arquivo chamado build
+build/
+#Todos os arquivos que começam com temp
+temp*
+#Qualquer diretório chamado configs
+**/configs 
